@@ -62,13 +62,19 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
+
 .footer {
-  bottom: 0;
+  position: absolute;
+  bottom: -60px;
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
-  z-index: 9999;
+  z-index: 999999;
 }
 .cus {
   background-color: #ac4e4e !important;
@@ -88,7 +94,7 @@ body > header > nav > div > div > ul > li:hover > a {
   position: absolute; /* Sit on top of the page content */
   display: block; /* Hidden by default */
   width: 100%; /* Full width (cover the whole page) */
-  height: 185%; /* Full height (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
   top: 7.8vh;
   left: 0;
   right: 0;
@@ -104,7 +110,7 @@ body > header > nav > div > div > ul > li:hover > a {
   );
 }
 .main {
-  position: absolute;
+  position: relative;
   top: 9vh;
   left: 0;
   right: 0;
@@ -224,4 +230,7 @@ body > header > nav > div > div > ul > li:hover > a {
   margin-bottom: 0;
   width: 60%;
   margin-top: 10px;
+}
+.m-cus {
+  margin-bottom: 60px;
 }
