@@ -1,0 +1,227 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+  z-index: 9999;
+}
+.cus {
+  background-color: #ac4e4e !important;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+body > header > nav > div > div > ul > li:hover > a {
+  color: #fff !important;
+}
+.bg-img {
+  background-image: url("../img/background.jpg");
+  background-position: center;
+}
+.overlay {
+  position: absolute; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 185%; /* Full height (cover the whole page) */
+  top: 7.8vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.308); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  background: rgb(32, 38, 43);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 38, 43, 0) 0%,
+    rgba(32, 38, 43, 0.8550770650056898) 60%,
+    rgba(9, 15, 22, 1) 86%
+  );
+}
+.main {
+  position: absolute;
+  top: 9vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3 !important;
+}
+.card-img-top {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  transition: linear 0.4s;
+}
+.img-fluid:hover > .card-img-top {
+  filter: none;
+  -webkit-filter: none;
+}
+.btn-order {
+  width: 120px;
+  bottom: 20px;
+  right: 10px;
+  position: absolute;
+}
+.card-img-overlay {
+  background: rgb(32, 38, 43);
+  background: linear-gradient(
+    0deg,
+    rgba(32, 38, 43, 0) 0%,
+    rgba(32, 38, 43, 0.8550770650056898) 67%,
+    rgba(9, 15, 22, 0.8354692218684349) 98%
+  );
+}
+
+.pz-title {
+  color: #a884b3;
+}
+.p-cus {
+  padding: 10px;
+}
+#carouselExampleCaptions {
+  margin-top: -5%;
+  height: 90vh !important;
+}
+.carousel-inner {
+  height: 90vh !important;
+}
+#carouselExampleCaptions > .overlay {
+  top: 0px;
+  height: 90vh !important;
+  background: rgb(252, 139, 69);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 139, 69, 0.5049370089832808) 0%,
+    rgba(248, 197, 68, 0.09877454399728647) 12%,
+    rgba(248, 197, 68, 0.0959734235491071) 88%,
+    rgba(252, 139, 69, 0.5049370089832808) 100%
+  );
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  #carouselExampleCaptions > .overlay {
+    height: 100% !important;
+  }
+  #carouselExampleCaptions {
+    margin-top: -10%;
+    height: 60vh !important;
+  }
+  .pz-title {
+    font-size: 32px;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .p-cus {
+    padding: 0px;
+  }
+  #carouselExampleCaptions > .overlay {
+    height: 100% !important;
+  }
+  #carouselExampleCaptions {
+    margin-top: 0%;
+    height: 50vh !important;
+  }
+  .pz-title {
+    font-size: 32px;
+  }
+  .carousel-inner {
+    height: 50vh !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .p-cus {
+    padding: 0px;
+  }
+  #carouselExampleCaptions > .overlay {
+    height: 100% !important;
+  }
+  #carouselExampleCaptions {
+    margin-top: -10%;
+    height: 40vh !important;
+  }
+  .pz-title {
+    font-size: 32px;
+  }
+  .carousel-inner {
+    height: 40vh !important;
+  }
+}
+.text-color {
+  color: rgb(252, 139, 69);
+}
+.bg-color {
+  background-color: rgba(9, 15, 22, 0.8354692218684349);
+  margin-bottom: 0;
+  width: 60%;
+  margin-top: 10px;
+}
