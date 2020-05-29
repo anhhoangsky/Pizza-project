@@ -150,14 +150,14 @@ body > header > nav > div > div > ul > li:hover > a {
 }
 #carouselExampleCaptions {
   margin-top: -5%;
-  height: 90vh !important;
+  height: 95vh !important;
 }
 .carousel-inner {
-  height: 90vh !important;
+  height: 95vh !important;
 }
 #carouselExampleCaptions > .overlay {
   top: 0px;
-  height: 90vh !important;
+  height: 95vh !important;
   background: rgb(252, 139, 69);
   background: linear-gradient(
     90deg,
@@ -182,6 +182,12 @@ body > header > nav > div > div > ul > li:hover > a {
   }
   .carousel-inner {
     height: 60vh !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-text {
+    display: none;
   }
 }
 
@@ -233,4 +239,12 @@ body > header > nav > div > div > ul > li:hover > a {
 }
 .m-cus {
   margin-bottom: 60px;
+}
+
+.fill {
+  height: 100%;
+  object-fit: fill !important;
+}
+.carousel-item {
+  height: 100%;
 }
