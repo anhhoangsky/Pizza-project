@@ -1,13 +1,13 @@
 ## Pizza-project
 +1 REPONSIVE
 ..* largest
-![alt text](https://ibb.co/z7n9n8J)
+![alt text](https://i.ibb.co/F0xZxsV/1.png)
 ======
 ..* medium
-![alt text](https://ibb.co/TvYDsZM)
+![alt text](https://i.ibb.co/LkYD3Md/3.png)
 ======
-![alt text](https://ibb.co/30PPWZ9)
+![alt text](https://i.ibb.co/vJMMmn6/5.png)
 ======
 ..* small
-![alt text](https://ibb.co/tYxP2g8)
+![alt text](https://i.ibb.co/L9Jhgmn/2.png)
 ======
