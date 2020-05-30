@@ -1,5 +1,5 @@
 ## Pizza-project
-+1 REPONSIVE
+[  ] REPONSIVE
 * largest
 * ![alt text](https://i.ibb.co/F0xZxsV/1.png)
 
